@@ -12,4 +12,14 @@ $(function() {
     $("#fadeOut").fadeOut();
   });
 
+  // Theme Switch Functions
+  $("button#dark").click(function() {
+    $("body").removeClass();
+    $("body").addClass("themeTwo");
+  });
+
+  $("button#light").click(function() {
+    $("body").removeClass();
+  });
+
 });

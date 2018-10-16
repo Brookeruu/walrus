@@ -1,3 +1,8 @@
+.themeTwo {
+  background-color: #666;
+  color: lightblue;
+}
+
 #shown {
   display: none;
 }
