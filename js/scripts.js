@@ -22,4 +22,8 @@ $(function() {
     $("body").removeClass();
   });
 
+  $("p").click(function() {
+    $("p").addClass("highlight");
+  });
+
 });
